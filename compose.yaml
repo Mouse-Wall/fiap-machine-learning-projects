@@ -1,0 +1,9 @@
+services:
+  machine-learning:
+    build: .
+    container_name: fiap-machine-learning
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
