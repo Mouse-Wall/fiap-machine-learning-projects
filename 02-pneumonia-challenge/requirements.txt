@@ -1,0 +1,5 @@
+numpy==1.26.4
+matplotlib==3.9.2
+scikit-learn==1.5.2
+kagglehub==0.3.4
+notebook==7.2.2
